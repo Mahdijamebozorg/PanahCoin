@@ -75,6 +75,18 @@ User management and system settings
 </div>
 Search, edit, and delete users
 
+### 8. Customeized prices
+<div align="center">
+  <center><img src="screenshots/prices.jpg" width="300"></center>
+</div>
+Admin can customize the prices and add offset
+
+### 8. Settings
+<div align="center">
+  <center><img src="screenshots/settings.jpg" width="300"></center>
+</div>
+App gloval settings and maintain mode
+
 <p>&nbsp;</p>
 
 ## 🛠️ Technology Stack
