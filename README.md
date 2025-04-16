@@ -18,7 +18,7 @@
 
 ## 🖼️ System Screenshots
 
-### 1. Login Screen
+### Login Screen
 <div align="center">
   <center><img src="screenshots/login.jpg" width="300"></center>
 </div>
@@ -26,7 +26,7 @@ Mobile number login + fingerprint activation
 
 <p>&nbsp;</p>
 
-### 2. OTP Verification
+### OTP Verification
 <div align="center">
   <center><img src="screenshots/otp.jpg" width="300"></center>
 </div>
@@ -34,7 +34,7 @@ One-time password via SMS
 
 <p>&nbsp;</p>
 
-### 3. User Dashboard
+### User Dashboard
 <div align="center">
   <center><img src="screenshots/home.jpg" width="300"></center>
 </div>
@@ -43,7 +43,7 @@ Percentage changes and unit values
 
 <p>&nbsp;</p>
 
-### 4. Transaction Management
+### Transaction Management
 <div align="center">
   <center><img src="screenshots/bills.jpg" width="300"></center>
 </div>
@@ -52,7 +52,7 @@ Detailed transaction information
 
 <p>&nbsp;</p>
 
-### 5. New Transaction
+### New Transaction
 <div align="center">
   <center><img src="screenshots/add_bill.jpg" width="300"></center>
 </div>
@@ -61,7 +61,7 @@ Description field
 
 <p>&nbsp;</p>
 
-### 6. Admin Panel
+### Admin Panel
 <div align="center">
   <center><img src="screenshots/admin_drawer.jpg" width="300"></center>
 </div>
@@ -69,7 +69,7 @@ User management and system settings
 
 <p>&nbsp;</p>
 
-### 7. Users List
+### Users List
 <div align="center">
   <center><img src="screenshots/users.jpg" width="300"></center>
 </div>
@@ -81,7 +81,7 @@ Search, edit, and delete users
 </div>
 Admin can customize the prices and add offset
 
-### 8. Settings
+### Settings
 <div align="center">
   <center><img src="screenshots/settings.jpg" width="300"></center>
 </div>
