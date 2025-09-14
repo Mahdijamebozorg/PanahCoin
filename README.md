@@ -1,139 +1,100 @@
-# Panah Coin - A gold trading platform customized for gold sellers
- 
-<p>&nbsp;</p>
+# Panah Coin – A Gold Trading Platform for Sellers  
 
-<div align="center">
-  <a>
-    <img src="screenshots/icon.png" alt="Icon" width="200" height="200">
-  </a>
-</div>
+**Panah Coin** is a Flutter-based mobile and web application (PWA) designed for gold sellers to manage financial transactions, monitor real-time coin prices, and operate with an advanced admin panel.  
+This repository showcases my work as a **Flutter developer** on the Panah Coin project.  
 
-[PWA](https://mahdijamebozorg.github.io/panah-coin/)
+---
 
-## ✨ Key Features
+## 📱 About the App  
 
-- **Financial transaction management** (register, approve, reject transactions)
-- **Multi-level admin panel** (admin and regular users)
-- **Real-time gold coin prices** (various gold coin types)
-- **Two-factor authentication with OTP**
-- **Advanced reporting with time filters**
+Panah Coin is a specialized platform that enables gold sellers to:  
 
-## 🖼️ System Screenshots
+- Register, approve, and reject financial transactions  
+- View and manage real-time gold coin prices  
+- Use multi-level admin panels with custom roles  
+- Apply two-factor authentication with OTP  
+- Generate advanced reports with time filters  
 
-### Login Screen
-<div align="center">
-  <center><img src="screenshots/login.jpg" width="300"></center>
-</div>
-Mobile number login + fingerprint activation
+A **Progressive Web App (PWA)** version is also available: [Panah Coin PWA](https://mahdijamebozorg.github.io/panah-coin/)  
 
-<p>&nbsp;</p>
+---
 
-### OTP Verification
-<div align="center">
-  <center><img src="screenshots/otp.jpg" width="300"></center>
-</div>
-One-time password via SMS
+## 📌 Key Highlights  
 
-<p>&nbsp;</p>
+- Multi-level admin panel with user management  
+- Real-time gold coin prices for various coin types  
+- OTP-based two-factor authentication  
+- Automatic price calculations for new transactions  
+- Admin customization for prices and offsets  
+- Global app settings and maintenance mode  
+- Clean and maintainable Flutter codebase  
 
-### User Dashboard
-<div align="center">
-  <center><img src="screenshots/home.jpg" width="300"></center>
-</div>
-Real-time gold coin prices
-Percentage changes and unit values
+---
 
-<p>&nbsp;</p>
+## 🛠️ Tech Stack & Dependencies  
 
-### Transaction Management
-<div align="center">
-  <center><img src="screenshots/bills.jpg" width="300"></center>
-</div>
-Approve/reject transactions
-Detailed transaction information
+Here’s a summary of the main technologies and packages used in the project:  
 
-<p>&nbsp;</p>
+| Category | Package |
+| ---------------- | ------------------------------- |
+| **Framework** | [Flutter](https://flutter.dev/) |
+| **State Management / Utilities** | [Get](https://pub.dev/packages/get), [Equatable](https://pub.dev/packages/equatable), [Logger](https://pub.dev/packages/logger), [Shared Preferences](https://pub.dev/packages/shared_preferences) |
+| **HTTP Client** | [Dio](https://pub.dev/packages/dio), [Pretty Dio Logger](https://pub.dev/packages/pretty_dio_logger) |
+| **UI Components** | [Flutter SVG](https://pub.dev/packages/flutter_svg), [Expandable](https://pub.dev/packages/expandable), [Skeletonizer](https://pub.dev/packages/skeletonizer), [Flutter Spinkit](https://pub.dev/packages/flutter_spinkit), [Lottie](https://pub.dev/packages/lottie), [Pinput](https://pub.dev/packages/pinput), [Fading Edge ScrollView](https://pub.dev/packages/fading_edge_scrollview) |
+| **Localization** | [Flutter Localization](https://pub.dev/packages/flutter_localization), [Shamsi Date](https://pub.dev/packages/shamsi_date), [Persian DateTime Picker](https://pub.dev/packages/persian_datetime_picker), `flutter_localizations` (SDK) |
+| **Platform / Auth** | [Local Auth](https://pub.dev/packages/local_auth), [Smart Auth](https://pub.dev/packages/smart_auth), [URL Launcher](https://pub.dev/packages/url_launcher), [Package Info Plus](https://pub.dev/packages/package_info_plus), [Path Provider](https://pub.dev/packages/path_provider) |
+| **Development** | [Flutter Lints](https://pub.dev/packages/flutter_lints), [Flutter Launcher Icons](https://pub.dev/packages/flutter_launcher_icons), [Flutter Gen](https://pub.dev/packages/flutter_gen), [Build Runner](https://pub.dev/packages/build_runner), [Flutter Native Splash](https://pub.dev/packages/flutter_native_splash) |
 
-### New Transaction
-<div align="center">
-  <center><img src="screenshots/add_bill.jpg" width="300"></center>
-</div>
-Automatic final price calculation
-Description field
+**Backend:** Node.js  
+**Database:** MongoDB  
+**Authentication:** JWT + OTP  
 
-<p>&nbsp;</p>
+---
 
-### Admin Panel
-<div align="center">
-  <center><img src="screenshots/admin_drawer.jpg" width="300"></center>
-</div>
-User management and system settings
+## 🗂️ Project Structure  
+lib/
+├── components/ # Reusable UI components
+├── models/ # Data models
+├── pages/ # Application screens
+├── services/ # Business logic services
+├── states/ # State management
+├── utils/ # Utility functions
+├── main.dart # App entry point
+└── routes.dart # App routing
 
-<p>&nbsp;</p>
 
-### Users List
-<div align="center">
-  <center><img src="screenshots/users.jpg" width="300"></center>
-</div>
-Search, edit, and delete users
+---
 
-### 8. Customeized prices
-<div align="center">
-  <center><img src="screenshots/prices.jpg" width="300"></center>
-</div>
-Admin can customize the prices and add offset
+## 📸 Screenshots  
 
-### Settings
-<div align="center">
-  <center><img src="screenshots/settings.jpg" width="300"></center>
-</div>
-App gloval settings and maintain mode
+The app includes multiple key screens for different functionalities:  
 
-<p>&nbsp;</p>
+| Screen | Screenshot |
+| ------ | ----------- |
+| **Login** | <img src="./screenshots/login.jpg" alt="login" width="300"/> |
+| **OTP Verification** | <img src="./screenshots/otp.jpg" alt="otp" width="300"/> |
+| **User Dashboard** | <img src="./screenshots/home.jpg" alt="home" width="300"/> |
+| **Transaction Management** | <img src="./screenshots/bills.jpg" alt="bills" width="300"/> |
+| **New Transaction** | <img src="./screenshots/add_bill.jpg" alt="add-bill" width="300"/> |
+| **Admin Panel** | <img src="./screenshots/admin_drawer.jpg" alt="admin" width="300"/> |
+| **Users List** | <img src="./screenshots/users.jpg" alt="users" width="300"/> |
+| **Customized Prices** | <img src="./screenshots/prices.jpg" alt="prices" width="300"/> |
+| **Settings** | <img src="./screenshots/settings.jpg" alt="settings" width="300"/> |
 
-## 🛠️ Technology Stack
+---
 
-- **Frontend**: Flutter
-- **Backend**: Node.js
-- **Database**: MongoDB
-- **Authentication**: JWT + OTP
+## 📄 License  
 
-<!---
+This is a proprietary project. All rights reserved.  
 
-## Key features:
-- Accurate calorie tracking based on food intake.
+---
 
-<p>&nbsp;</p>
+## 🔄 Dev Setup  
 
-## Authentication
-<center><img src="screenShots/login.jpg" width="300"></center>
+For development:  
 
-<p>&nbsp;</p>
+- Flutter SDK: 3.x  
+- Dart SDK: 3.x  
+- VS Code or Android Studio with Flutter plugins  
 
-## Search and add foods
-<center><img src="screenShots/search.jpg" width="300"></center>
-
-<p>&nbsp;</p>
-
-## Explore statics by date
-<center><img src="screenShots/date.jpg" width="300"></center>
-<p>&nbsp;</p>
-<center><img src="screenShots/bar.jpg" width="300"></center>
-<p>&nbsp;</p>
-<center><img src="screenShots/pie.jpg" width="300"></center>
-
-<p>&nbsp;</p>
-
-## Show, edit and remove meals
-<center><img src="screenShots/meal.jpg" width="300"></center>
-
-<p>&nbsp;</p>
-
-## Built With
-<img src="https://storage.googleapis.com/cms-storage-bucket/6a07d8a62f4308d2b854.svg" width=100 height=50>
-<img src="https://dart.dev/assets/img/logo/logo-white-text.svg" width=100 height=50>
-
-## Promotion Dialog
-[![Promotion Screen Shot][Promotion]][Promotion]
-
---->
+_For more information about the app’s features and development, please contact the development team._  
