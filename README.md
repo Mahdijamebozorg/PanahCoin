@@ -1,4 +1,4 @@
-# Panah Coin - FinTech Gold trading B2B app (پلتفرم معاملاتی و مدیریت فین‌تک پناه)
+# Panah Coin - FinTech Gold trading B2B app
 
 [![Flutter](https://img.shields.io/badge/Platform-Flutter%20%7C%20PWA-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
 [![FinTech Security](https://img.shields.io/badge/Security-JWT%20%2B%202FA%20%2F%20OTP-red)](#)
