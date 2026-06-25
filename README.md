@@ -74,25 +74,15 @@ lib/
 The app includes multiple key screens for different functionalities:  
 
 | Screen | Screenshot |
-
 | ------ | ----------- |
-
 | **Login** | <img src="./screenshots/login.jpg" alt="login" width="300"/> |
-
 | **OTP Verification** | <img src="./screenshots/otp.jpg" alt="otp" width="300"/> |
-
 | **User Dashboard** | <img src="./screenshots/home.jpg" alt="home" width="300"/> |
-
 | **Transaction Management** | <img src="./screenshots/bills.jpg" alt="bills" width="300"/> |
-
 | **New Transaction** | <img src="./screenshots/add_bill.jpg" alt="add-bill" width="300"/> |
-
 | **Admin Panel** | <img src="./screenshots/admin_drawer.jpg" alt="admin" width="300"/> |
-
 | **Users List** | <img src="./screenshots/users.jpg" alt="users" width="300"/> |
-
 | **Customized Prices** | <img src="./screenshots/prices.jpg" alt="prices" width="300"/> |
-
 | **Settings** | <img src="./screenshots/settings.jpg" alt="settings" width="300"/> |
 
 ---
